@@ -36,7 +36,7 @@ export class ExampleComponent implements OnInit {
 
   readonly exampleLink = `https://github.com/ngneat/hot-toast/tree/${
     environment.production ? 'master' : 'development'
-  }/src/app/home/sections/example`;
+  }/src/app/sections/example`;
 
   constructor(private toast: HotToastService) {}
 
