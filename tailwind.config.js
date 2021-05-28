@@ -1,7 +1,6 @@
-module.exports = (isProd) => ({
+module.exports = {
   prefix: '',
   purge: {
-    enabled: isProd,
     content: ['./src/**/*.{html,ts}'],
   },
   darkMode: false, // or 'media' or 'class'
@@ -126,4 +125,4 @@ module.exports = (isProd) => ({
     },
   },
   plugins: [require('@tailwindcss/typography')],
-});
+};
